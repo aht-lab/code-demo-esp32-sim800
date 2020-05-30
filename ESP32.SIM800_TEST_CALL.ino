@@ -9,12 +9,6 @@
 
 #define mySerial Serial2
 
-#define CALL_TIME 15*1000
-#define CALL_TIMEOUT 10*1000
-unsigned long lastTimeCall = 0;
-unsigned long lastTimeHandup = 0;
-bool isCalling = false;
-bool firstCall = true;
 
 void setup() 
 {
@@ -36,18 +30,5 @@ void loop()
     mySerial.write(c);
   }
 
-  if (isCalling == false && (firstCall || millis() - lastTimeHandup > CALL_TIMEOUT)) {
-    mySerial.println("ATD0799042802;");
-    delay(100);
-    lastTimeCall = millis();
-    isCalling = true;
-    firstCall = false;
-  }
   
-  if (isCalling == true && millis() - lastTimeCall > CALL_TIME) {
-    mySerial.println("ATH");
-    delay(100);
-    lastTimeHandup = millis();
-    isCalling = false;
-  }
 }
