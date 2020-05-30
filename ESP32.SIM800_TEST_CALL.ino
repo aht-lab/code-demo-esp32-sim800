@@ -16,6 +16,12 @@ void setup()
   delay(500);
   mySerial.begin(115200);
   delay(500);
+   mySerial.println("ATI");
+  delay(100);
+  mySerial.println("AT+CSQ");
+  delay(100);
+  mySerial.println("AT+CIMI");
+  delay(100);
 }
 void loop() 
 {
