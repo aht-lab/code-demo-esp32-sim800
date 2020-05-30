@@ -1,3 +1,6 @@
 # esp32-sim800
-Wifi ESP32 with GSM module SIM800
-link : https://ahtlab.com/san-pham/kit-wifi-esp32-gsm-2g-3g/
+ESP wifi with GSM module
+1. ESP8266 SIM800C(2G): https://ahtlab.com/san-pham/board-mach-usb-esp8266-sim800c/
+2. ESP32 SIM800A(2G) : https://ahtlab.com/san-pham/kit-wifi-esp32-gsm-2g-3g/
+3. ESP32 SIM5300E(2G/3G): https://ahtlab.com/san-pham/kit-wifi-esp32-3g-sim5300e/
+4. ESP32 SIM7600CE(2G/3G/4G LTE): https://ahtlab.com/san-pham/kit-wifi-esp32-4g-sim7600ce/
