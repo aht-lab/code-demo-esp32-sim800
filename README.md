@@ -1,4 +1,6 @@
 # esp32-sim800
+Nếu sử dụng module SIM7600 vui lòng sử dụng thư viện sau để được hỗ trợ tốt hơn
+https://github.com/aht-lab/ESP32_SIM7600
 ESP wifi with GSM module
 1. ESP8266 SIM800C(2G): https://ahtlab.com/san-pham/board-mach-usb-esp8266-sim800c/
 2. ESP32 SIM800A(2G) : https://ahtlab.com/san-pham/kit-wifi-esp32-gsm-2g-3g/
