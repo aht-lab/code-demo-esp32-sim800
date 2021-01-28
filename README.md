@@ -1,5 +1,8 @@
 # esp32-sim800
-Nếu sử dụng module SIM7600 vui lòng sử dụng thư viện sau để được hỗ trợ tốt hơn:
+Thư viện kiểm tra tập lệnh AT cho dòng module SIM, xem thêm hướng dẫn tại:
+https://ahtlab.com/huong-dan-su-dung-module-sim800-sim900/
+
+Nếu sử dụng module 4G #ESP32_SIM7600 vui lòng sử dụng thư viện sau để được hỗ trợ tốt hơn:
 
 https://github.com/aht-lab/ESP32_SIM7600
 
