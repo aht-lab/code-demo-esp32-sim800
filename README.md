@@ -1,8 +1,8 @@
 # esp32-sim800
-Thư viện kiểm tra tập lệnh AT cho dòng module của SIMCOM, xem thêm hướng dẫn tại:
+code arduino kiểm tra tập lệnh AT cho dòng module của SIMCOM, xem thêm hướng dẫn tại:
 https://ahtlab.com/huong-dan-su-dung-module-sim800-sim900/
 
-*Nếu sử dụng module 4G #ESP32_SIM7600 vui lòng sử dụng thư viện sau để được hỗ trợ tốt hơn:
+*Nếu sử dụng module 4G #ESP32_SIM7600 vui lòng sử dụng thư viện sau đây để được hỗ trợ tốt hơn:
 https://github.com/aht-lab/ESP32_SIM7600
 
 ESP wifi with GSM module
