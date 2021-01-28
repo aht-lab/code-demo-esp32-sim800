@@ -1,5 +1,6 @@
 # esp32-sim800
 code arduino kiểm tra tập lệnh AT cho dòng module của SIMCOM
+
 *Nếu sử dụng module 4G #ESP32_SIM7600 vui lòng sử dụng thư viện sau đây để được hỗ trợ tốt hơn:
 https://github.com/aht-lab/ESP32_SIM7600
 
